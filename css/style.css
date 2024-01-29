@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  color: white;
+}
+
+/* Navbar Style CSS Start */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efe9e9a8;
+  color: #000000;
+  width: 100vw;
+  height: 10vh;
+  padding: 0px 50px;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  position: fixed;
+}
+
+.navbar .title {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .title img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar .title h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.navbar .navbar-menu a {
+  text-decoration: none;
+  color: #757272;
+  font-size: 1.2em;
+  padding: 7px;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
+.navbar .navbar-menu a:hover {
+  color: #111111;
+  width: 30px;
+  height: 30px;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
+.navbar .beside-navbar img {
+  display: none;
+}
+/* Navbar Style CSS End */
+
+/* Home Style CSS Start */
+
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(249, 249, 249);
+  width: 100vw;
+  height: 100vh;
+  color: #111111;
+}
+
+.home div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin: 4rem;
+}
+
+.home div .information {
+  display: flex;
+  flex-direction: column;
+}
+
+.home div .information h1 {
+  font-size: 2rem;
+}
+.home div .information p {
+  font-size: 1.2rem;
+}
+
+.home .side-home {
+  width: 300px;
+  height: 300px;
+}
+
+.home .side-home img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+}
+
+/* Home Style CSS End */
+
+/* Media Queries Start */
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+
+  .home div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+/* Media Queries End */
