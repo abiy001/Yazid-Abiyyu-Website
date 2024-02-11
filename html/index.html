@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Yazid Khairul</title>
     <link rel="stylesheet" href="../css/style.css" />
+
     <!-- our font start -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,19 +14,23 @@
       rel="stylesheet"
     />
     <!-- our font end -->
+
+    <!-- phosphor icons start -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- phosphor icons end -->
   </head>
   <body>
     <div>
       <!--  navbar start -->
       <nav class="navbar">
         <div class="title">
-          <h1>YAZID<span>KHAIRUL</span></h1>
+          <h1>YAZID<span>ABIYYU</span></h1>
         </div>
 
         <div class="navbar-menu">
           <a href="#home">HOME</a>
-          <a href="#layanan">LAYANAN </a>
-          <a href="#property">PROPERTY</a>
+          <a href="#aboutus">ABOUT US </a>
+          <a href="#profile">PROFILE</a>
           <a href="#contact">CONTACT</a>
         </div>
 
@@ -40,18 +45,93 @@
         <div>
           <div class="information">
             <h1>
-              I'am <span id="firstName">Yazid</span>
-              <span id="lastName">Khairul</span>
+              Hello Our Name Is
+              <span id="first-person">Yazid</span> and
+              <span id="second-person">Abiyyu</span>
             </h1>
-            <p>-Front End Developer-</p>
-          </div>
+            <div>
+              <div>
+                <img src="../img/github-logo.png" alt="" />
+              </div>
+              <div>
+                <img src="../img/instagram-logo.png" alt="" />
+              </div>
+              <div>
+                <img src="../img/twitter-logo.png" alt="" />
+              </div>
+              <div>
+                <img src="../img/linkedin-logo.png" alt="" />
+              </div>
+            </div>
 
-          <div class="side-home">
-            <img src="../img/foto-diri -sendiri.jpg" alt="" />
+            <p>-Front End Developer-</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1440 320"
+              class="jumbotron"
+            >
+              <path
+                fill="#ffffff"
+                fill-opacity="10"
+                d="M0,96L80,122.7C160,149,320,203,480,218.7C640,235,800,213,960,197.3C1120,181,1280,171,1360,165.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+              ></path>
+            </svg>
           </div>
         </div>
       </section>
       <!-- home end -->
+
+      <!-- about us start -->
+      <section class="aboutus" id="aboutus">
+        <div>
+          <div class="head">
+            <h1>ABOUT US</h1>
+            <a href="">About Our's School</a>
+          </div>
+
+          <div class="isi">
+            <p>
+              Halo semuanya, kami adalah seorang siswa kelas 10 yang berasal
+              dari Cirebon, sekarang kami sedang menimba ilmu di SMKN 1 Cirebon.
+              Di situ kami mengambil jurusan Pengembangan Perangkat Lunak dan
+              GIM
+            </p>
+
+            <img src="../img/smk.JPG" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- about us end -->
+
+      <!-- profile start -->
+      <section class="profile" id="profile">
+        <h1>OUR'S PROFILE</h1>
+
+        <div class="cards">
+          <main>
+            <div>
+              <img id="yazid-img" src="../img/foto-diri -sendiri.jpg" alt="" />
+            </div>
+            <div>
+              <h3>Nama : Yazid Khairul</h3>
+              <h3>Umur : 15</h3>
+              <h3>kelas : X-PPLG 1</h3>
+            </div>
+          </main>
+
+          <main>
+            <div>
+              <img id="abiy-img" src="../img/abiy.jpg" alt="" />
+            </div>
+            <div>
+              <h3>Nama : Hafidh Abiyyu</h3>
+              <h3>Umur : 16</h3>
+              <h3>kelas : X-PPLG 1</h3>
+            </div>
+          </main>
+        </div>
+      </section>
+      <!-- profile end -->
     </div>
     <script src="../js/script.js"></script>
   </body>
