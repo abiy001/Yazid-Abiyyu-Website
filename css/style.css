@@ -71,6 +71,11 @@ body {
 .navbar .beside-navbar img {
   display: none;
 }
+
+.navbar .beside-navbar img:hover {
+  color: #fff;
+  transition: .5s;
+}
 /* Navbar Style CSS End */
 
 /* Home Style CSS Start */
@@ -239,6 +244,7 @@ body {
   color: #111111;
   max-width: 250px;
   max-height: 300px;
+  border-radius: 5%;
   background-color: #ffffff;
   box-shadow: 2px 2px 2px 2px;
 }
@@ -248,7 +254,7 @@ body {
 }
 
 #yazid-img {
-  border-radius: 50%;
+  border-radius:10%;
   width: 100px;
   height: 100px;
   -webkit-border-radius: 50%;
@@ -257,7 +263,7 @@ body {
   -o-border-radius: 50%;
 }
 #abiy-img {
-  border-radius: 50%;
+  border-radius: 10%;
   width: 100px;
   height: 100px;
   -webkit-border-radius: 50%;
@@ -265,6 +271,28 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
+/* contact start/ */
+.contact {
+margin-top: 100px;
+width: 210vh;
+height: 795px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+/* outline: black 1px solid; */
+}
+
+.form {
+  width: 790px;
+  height: 500px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: #e3990f;
+}
+/* contact end */
 
 /* Home Style CSS End */
 
